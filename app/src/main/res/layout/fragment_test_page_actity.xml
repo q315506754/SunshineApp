@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="placeholder..."
+            />
+
+        <Button
+            android:id="@+id/testActionType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试Action属性"/>
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="测试Intent Category"
+            />
+
+        <Button
+            android:id="@+id/testCategoryType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转到Home界面"
+            />
+    </LinearLayout>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/testStartService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="开启Service"
+                />
+
+            <Button
+                android:id="@+id/testStopService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="关闭Service"
+                />
+
+            <Button
+                android:id="@+id/testStartInterService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="开启交互Service"
+                />
+
+            <Button
+                android:id="@+id/testStopInterService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="关闭交互Service"
+                />
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/testVibrate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="震个痛快"
+            />
+
+        <Button
+            android:id="@+id/testCancelVibrate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel震个痛快"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/testSendSMS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="发短信给10086"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/testDial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="打电话给10086"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/testChooseContactTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="还未做出选择"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/testChooseContact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="选择联系人"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <!--android:onClick="testActionTypeFired"-->
+
+
+</LinearLayout>
+

@@ -5,7 +5,15 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
-    <item android:id="@+id/action_map"
-        android:title="@string/action_map"
+    <item android:id="@+id/action_dial"
+        android:title="@string/action_dial"
         app:showAsAction="never" />
+    <item android:id="@+id/action_open_url"
+        android:title="@string/action_open_url"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_testpage"
+        android:title="@string/action_testpage"
+          android:icon="@drawable/ic_light_rain"
+        app:showAsAction="always" />
+
 </menu>
